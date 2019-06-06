@@ -1,26 +1,9 @@
-package org.atmecs.app;
-
-import java.util.Scanner;
-
-public class First {
-
-		public static void main(String[] args) {
-		// TODO Auto-generated method stub
-Scanner sc=new Scanner(System.in);
-System.out.println("enter username");
-System.out.println("enter password");
-String username=sc.next();
-String password=sc.next();
-String pd="abcd";
-String nm="vani";
-if(username.equals(nm)&&password.equals(pd))
-{
-	System.out.println("login success");
+public class Table {
+public static void main(String[] args) {
+int n=2;
+for(int i=1;i<=5;i++){  
+		     System.out.println(n*i);  
+		      
+		   }  
+}		  
 }
-else
-{
-	System.out.println("login unsuccesful");
-}
-	}
-}
-
